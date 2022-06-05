@@ -6,6 +6,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+
   <!-- CSS links -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -31,7 +35,7 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Products & Services</a>
+              <a class="nav-link" href="#service">Products & Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Become a Client</a>
@@ -95,9 +99,62 @@
   </section>
   <!-- banner end -->
 
+  <!-- product & services start -->
+  <section id="service" class="service common_paddingtb">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-8">
+          <h1 class="text-center text-success mb-5">Product & Services</h1>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Single Start -->
+        <div class="col-lg-4 col-md-4">
+          <div class="service-single">
+            <img class="img-fluid mb-3" src="images/ser1.jpg" alt="Mujib">
+            <div class="service-text">
+              <h3 class="text-success">Turnaround Consulting</h3>
+              <p>Companies dislike the term turnaround consulting because it represents failure. The truth is that
+                turnaround consulting represents success.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single End -->
+        <!-- Single Start -->
+        <div class="col-lg-4 col-md-4">
+          <div class="service-single">
+            <img class="img-fluid mb-3" src="images/ser2.jpg" alt="Mujib">
+            <div class="service-text">
+              <h3 class="text-success">Bonds & Commodities</h3>
+              <p>Companies dislike the term turnaround consulting because it represents failure. The truth is that
+                turnaround consulting represents success.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single End -->
+        <!-- Single Start -->
+        <div class="col-lg-4 col-md-4">
+          <div class="service-single">
+            <img class="img-fluid mb-3" src="images/ser3.jpg" alt="Mujib">
+            <div class="service-text">
+              <h3 class="text-success">Audit & Assurance</h3>
+              <p>Companies dislike the term turnaround consulting because it represents failure. The truth is that
+                turnaround consulting represents success.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single End -->
+      </div>
+    </div>
+  </section>
+  <!-- product & services end -->
+
+  <!-- become a client start -->
+  <!-- become a client end -->
+
   <!-- about us start -->
   <section id="about-us">
-    <div class="container">
+    <div class="container-fluid">
       <h1 class="text-center text-success mb-5">About Us</h1>
       <div class="accordion" id="accordionAbout">
         <div class="accordion-item">
@@ -231,49 +288,56 @@
   </section>
   <!-- about us end -->
 
-  <!-- product & services start -->
-  <section id="service" class="service common_paddingtb">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xl-7 col-lg-8">
-          <h1 class="text-center text-success mb-5">Product & Services</h1>
+  <!-- footer start -->
+  <footer>
+    <section class="f-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 contact-us">
+            <h3 class="c-h3 text-success">Contact Us</h3>
+            <p>3054305678, 3085482392</p>
+            <p>mujib100@yahoo.com</p>
+            <p>Gulshan 1, Badda, Bangladesh</p>
+            <div class="social-media">
+              <button class="s_btn"><i onclick="window.open('https://www.facebook.com/')"
+                  class="fab fa-facebook-f"></i></button>
+              <button class="s_btn"><i onclick="window.open('https://www.linkedin.com/')"
+                  class="fab fa-linkedin-in"></i></button>
+              <button class="s_btn"><i onclick="window.open('https://www.youtube.com/')"
+                  class="fab fa-youtube"></i></button>
+              <button class="s_btn"><i onclick="window.open('https://www.twitter.com/')"
+                  class="fab fa-twitter"></i></button>
+              <button class="s_btn"><i onclick="window.open('https://www.pinterest.com/')"
+                  class="fab fa-pinterest"></i></button>
+            </div>
+          </div>
+          <div class="col-lg-3 useful-link">
+            <h3 class="c-h3  text-success">Useful Link</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Terms & Condition</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Knowledge Center</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-5 our-newsletter">
+            <h3 class="c-h3 text-success">Our Newsletter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt</p>
+            <div class="input-button">
+              <input type="text" placeholder="Email" class="email-input">
+              <button class="subs-btn btn btn-success">Subscribe</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <!-- Single Start -->
-        <div class="col-lg-4 col-md-4">
-          <div class="service-single">
-            <img class="img-fluid mb-3" src="images/ser1.jpg" alt="Mujib">
-            <h3 class="text-success">Turnaround Consulting</h3>
-            <p>Companies dislike the term turnaround consulting because it represents failure. The truth is that
-              turnaround consulting represents success.</p>
-          </div>
-        </div>
-        <!-- Single End -->
-        <!-- Single Start -->
-        <div class="col-lg-4 col-md-4">
-          <div class="service-single">
-            <img class="img-fluid mb-3" src="images/ser2.jpg" alt="Mujib">
-            <h3 class="text-success">Bonds & Commodities</h3>
-            <p>Companies dislike the term turnaround consulting because it represents failure. The truth is that
-              turnaround consulting represents success.</p>
-          </div>
-        </div>
-        <!-- Single End -->
-        <!-- Single Start -->
-        <div class="col-lg-4 col-md-4">
-          <div class="service-single">
-            <img class="img-fluid mb-3" src="images/ser3.jpg" alt="Mujib">
-            <h3 class="text-success">Audit & Assurance</h3>
-            <p>Companies dislike the term turnaround consulting because it represents failure. The truth is that
-              turnaround consulting represents success.</p>
-          </div>
-        </div>
-        <!-- Single End -->
-      </div>
-    </div>
-  </section>
-  <!-- product & services end -->
+    </section>
+    <section class="f-bottom bg-success">
+      <p class="mb-0">Copyright 2022 All rights reseved | Abdulla Al Fahad</p>
+    </section>
+  </footer>
+  <!-- footer end -->
 
 
   <!-- JS links -->
@@ -281,6 +345,7 @@
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+
 </body>
 
 </html>

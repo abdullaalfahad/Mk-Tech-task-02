@@ -23,6 +23,141 @@
     height: 10px;
 }
 
+#service {
+    margin: 100px 0;
+}
+
+.service-single {
+    text-align: center;
+    box-shadow: 0px 0px 2px green;
+    padding: 20px 5px 10px;
+}
+
+.service-text {
+    padding: 0 15px;
+}
+
 #about-us {
     margin: 100px 0;
+}
+
+footer {}
+
+.f-top {
+    padding: 100px 0;
+    background-color: black;
+}
+
+.contact_us {}
+
+.c-h3 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact-us p {
+    margin: 10px 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8B8B8B;
+}
+
+.contact-us p:nth-child(even) {
+    margin: 0;
+}
+
+.social-media {
+    margin: 30px 0 0;
+}
+
+.s-btn {
+    width: 32px;
+    height: 30px;
+    font-size: 15px;
+    color: 222327;
+    background-color: #535D69;
+    border: none;
+    border-radius: 3px;
+}
+
+.s-btn:hover {
+    color: white;
+    background-color: #C0213D;
+}
+
+.useful-link {}
+
+.useful-link ul {
+    padding: 0;
+}
+
+.useful-link ul li {
+    margin: 5px 0;
+    list-style-type: none;
+}
+
+.useful-link ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #8B8B8B;
+    text-decoration: none;
+}
+
+.useful-link ul li a:hover {
+    color: green;
+}
+
+.our-newsletter {}
+
+.our-newsletter p {
+    width: 90%;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8B8B8B;
+}
+
+.input-button {
+    margin: 40px 0 0;
+}
+
+.email-input {
+    margin: 0;
+    width: 45%;
+    padding: 11px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B8B8B;
+    background-color: transparent;
+    border: 1px solid #8B8B8B;
+    box-sizing: border-box;
+}
+
+.subs-btn {
+    margin-left: -5px;
+    margin-bottom: 5px;
+    width: 49%;
+    padding: 12px 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+.subs-btn:hover {
+    color: green;
+    background-color: white;
+}
+
+.f-bottom {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.f-bottom p {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
 }
