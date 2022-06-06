@@ -1,3 +1,7 @@
+body {
+    text-align: justify;
+}
+
 .logo {
     font-size: 28px;
     font-weight: bold;
@@ -28,13 +32,17 @@
 }
 
 .service-single {
-    text-align: center;
     box-shadow: 0px 0px 2px green;
-    padding: 20px 5px 10px;
 }
 
 .service-text {
-    padding: 0 15px;
+    padding: 0 10px 20px;
+}
+
+.contact-right {
+    border-top: 15px solid green;
+    padding: 50px 150px;
+    margin: 30px;
 }
 
 #about-us {
@@ -83,7 +91,7 @@ footer {}
 
 .s-btn:hover {
     color: white;
-    background-color: #C0213D;
+    background-color: green;
 }
 
 .useful-link {}
